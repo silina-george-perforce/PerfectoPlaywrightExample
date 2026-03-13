@@ -1,0 +1,68 @@
+# ---------------------------
+# .NET Build Output
+# ---------------------------
+bin/
+obj/
+out/
+
+# ---------------------------
+# Test Results
+# ---------------------------
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ---------------------------
+# Playwright
+# ---------------------------
+playwright-report/
+playwright/.cache/
+playwright/.local-browsers/
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS Files
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# IDE / Editor
+# ---------------------------
+.vs/
+.idea/
+.vscode/
+
+# ---------------------------
+# User-specific files
+# ---------------------------
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---------------------------
+# NuGet
+# ---------------------------
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# ---------------------------
+# Environment variables
+# ---------------------------
+.env
+.env.*
+
+# ---------------------------
+# Temporary files
+# ---------------------------
+*.tmp
+*.temp
+*.cache
