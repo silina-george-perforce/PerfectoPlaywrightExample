@@ -14,7 +14,7 @@ public class PerfectoPlaywrightTests
     private const string SECURITY_TOKEN = "SECURITY_TOKEN";
 
     [Test]
-    public async Task RbcPageTitleTest()
+    public async Task TitleTest()
     {
         var capabilities = new Dictionary<string, object>
         {
